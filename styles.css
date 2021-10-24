@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@4splay=swap');
 
 :root{
 
@@ -13,6 +13,10 @@ margin:0px;
 }
 hr{
     margin:2rem 0rem
+}
+/* spaces */
+.margin-md{
+    padding-top:2rem;
 }
 /**container**/
 
@@ -30,6 +34,8 @@ hr{
     text-decoration:none;
     padding:0.5rem 1rem;
     color:white;
+    /* margin-top:1rem;
+    margin-bottom: 1rem; */
 }
 
 .primary-link{
@@ -66,11 +72,12 @@ border-bottom-left-radius:1rem
 .navigation .nav-pills{
     text-align:right;
 }
-.navigation.link-active{
+.navigation .link-active{
 font-weight:bold;
 }
 .hero{
-    padding:2rem
+    padding:2rem;
+    padding-top: 5rem;
 }
 
 .hero-img{
@@ -81,6 +88,7 @@ font-weight:bold;
 .hero .hero-heading{
 padding-top:1rem;
 color:var(--dark-gray);
+text-align: center;
 }
 .hero .hero-heading .heading-inverted{
     color:var(--primary-color)
@@ -102,6 +110,10 @@ padding:2rem 1rem;
 text-align:center;
 color:white;
 border-top-right-radius: 1rem;
+}
+.footer .footer-header{
+    font-weight:bold;
+    font-size:large;
 }
 .footer .link{
     color:white;
